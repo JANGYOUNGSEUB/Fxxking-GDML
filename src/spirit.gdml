@@ -1,0 +1,1350 @@
+<?xml version="1.0"?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <position name="field_cage_in_1intpcpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="tpc_1intoppos" x="0" y="-27.476300000000002" z="72.285480000000007" unit="cm"/>
+    <rotation name="tpc_1intoprot" x="180" y="-8.5929905829982056e-31" z="180" unit="deg"/>
+    <position name="neulandBox0_1inneulandpos" x="0" y="-124.2" z="0" unit="cm"/>
+    <rotation name="neulandBox0_1inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox1_2inneulandpos" x="0" y="-119.2" z="0" unit="cm"/>
+    <rotation name="neulandBox1_2inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox2_3inneulandpos" x="0" y="-114.2" z="0" unit="cm"/>
+    <rotation name="neulandBox2_3inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox3_4inneulandpos" x="0" y="-109.2" z="0" unit="cm"/>
+    <rotation name="neulandBox3_4inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox4_5inneulandpos" x="0" y="-104.2" z="0" unit="cm"/>
+    <rotation name="neulandBox4_5inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox5_6inneulandpos" x="0" y="-99.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox5_6inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox6_7inneulandpos" x="0" y="-94.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox6_7inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox7_8inneulandpos" x="0" y="-89.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox7_8inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox8_9inneulandpos" x="0" y="-84.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox8_9inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox9_10inneulandpos" x="0" y="-79.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox9_10inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox10_11inneulandpos" x="0" y="-74.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox10_11inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox11_12inneulandpos" x="0" y="-69.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox11_12inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox12_13inneulandpos" x="0" y="-64.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox12_13inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox13_14inneulandpos" x="0" y="-59.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox13_14inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox14_15inneulandpos" x="0" y="-54.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox14_15inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox15_16inneulandpos" x="0" y="-49.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox15_16inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox16_17inneulandpos" x="0" y="-44.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox16_17inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox17_18inneulandpos" x="0" y="-39.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox17_18inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox18_19inneulandpos" x="0" y="-34.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox18_19inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox19_20inneulandpos" x="0" y="-29.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox19_20inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox20_21inneulandpos" x="0" y="-24.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox20_21inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox21_22inneulandpos" x="0" y="-19.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox21_22inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox22_23inneulandpos" x="0" y="-14.200000000000003" z="0" unit="cm"/>
+    <rotation name="neulandBox22_23inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox23_24inneulandpos" x="0" y="-9.2000000000000028" z="0" unit="cm"/>
+    <rotation name="neulandBox23_24inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox24_25inneulandpos" x="0" y="-4.2000000000000028" z="0" unit="cm"/>
+    <rotation name="neulandBox24_25inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox25_26inneulandpos" x="0" y="0.79999999999999716" z="0" unit="cm"/>
+    <rotation name="neulandBox25_26inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox26_27inneulandpos" x="0" y="5.7999999999999972" z="0" unit="cm"/>
+    <rotation name="neulandBox26_27inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox27_28inneulandpos" x="0" y="10.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox27_28inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox28_29inneulandpos" x="0" y="15.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox28_29inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox29_30inneulandpos" x="0" y="20.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox29_30inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox30_31inneulandpos" x="0" y="25.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox30_31inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox31_32inneulandpos" x="0" y="30.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox31_32inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox32_33inneulandpos" x="0" y="35.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox32_33inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox33_34inneulandpos" x="0" y="40.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox33_34inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox34_35inneulandpos" x="0" y="45.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox34_35inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox35_36inneulandpos" x="0" y="50.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox35_36inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox36_37inneulandpos" x="0" y="55.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox36_37inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox37_38inneulandpos" x="0" y="60.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox37_38inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox38_39inneulandpos" x="0" y="65.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox38_39inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox39_40inneulandpos" x="0" y="70.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox39_40inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox40_41inneulandpos" x="0" y="75.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox40_41inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox41_42inneulandpos" x="0" y="80.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox41_42inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox42_43inneulandpos" x="0" y="85.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox42_43inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox43_44inneulandpos" x="0" y="90.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox43_44inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox44_45inneulandpos" x="0" y="95.799999999999997" z="0" unit="cm"/>
+    <rotation name="neulandBox44_45inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox45_46inneulandpos" x="0" y="100.8" z="0" unit="cm"/>
+    <rotation name="neulandBox45_46inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox46_47inneulandpos" x="0" y="105.8" z="0" unit="cm"/>
+    <rotation name="neulandBox46_47inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox47_48inneulandpos" x="0" y="110.8" z="0" unit="cm"/>
+    <rotation name="neulandBox47_48inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox48_49inneulandpos" x="0" y="115.8" z="0" unit="cm"/>
+    <rotation name="neulandBox48_49inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox49_50inneulandpos" x="0" y="120.8" z="0" unit="cm"/>
+    <rotation name="neulandBox49_50inneulandrot" x="-0" y="-0" z="-90" unit="deg"/>
+    <position name="neulandBox50_51inneulandpos" x="-122.185" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox51_52inneulandpos" x="-117.185" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox52_53inneulandpos" x="-112.185" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox53_54inneulandpos" x="-107.185" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox54_55inneulandpos" x="-102.185" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox55_56inneulandpos" x="-97.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox56_57inneulandpos" x="-92.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox57_58inneulandpos" x="-87.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox58_59inneulandpos" x="-82.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox59_60inneulandpos" x="-77.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox60_61inneulandpos" x="-72.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox61_62inneulandpos" x="-67.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox62_63inneulandpos" x="-62.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox63_64inneulandpos" x="-57.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox64_65inneulandpos" x="-52.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox65_66inneulandpos" x="-47.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox66_67inneulandpos" x="-42.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox67_68inneulandpos" x="-37.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox68_69inneulandpos" x="-32.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox69_70inneulandpos" x="-27.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox70_71inneulandpos" x="-22.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox71_72inneulandpos" x="-17.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox72_73inneulandpos" x="-12.185000000000002" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox73_74inneulandpos" x="-7.1850000000000023" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox74_75inneulandpos" x="-2.1850000000000023" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox75_76inneulandpos" x="2.8149999999999977" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox76_77inneulandpos" x="7.8149999999999977" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox77_78inneulandpos" x="12.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox78_79inneulandpos" x="17.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox79_80inneulandpos" x="22.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox80_81inneulandpos" x="27.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox81_82inneulandpos" x="32.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox82_83inneulandpos" x="37.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox83_84inneulandpos" x="42.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox84_85inneulandpos" x="47.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox85_86inneulandpos" x="52.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox86_87inneulandpos" x="57.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox87_88inneulandpos" x="62.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox88_89inneulandpos" x="67.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox89_90inneulandpos" x="72.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox90_91inneulandpos" x="77.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox91_92inneulandpos" x="82.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox92_93inneulandpos" x="87.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox93_94inneulandpos" x="92.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox94_95inneulandpos" x="97.814999999999998" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox95_96inneulandpos" x="102.815" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox96_97inneulandpos" x="107.815" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox97_98inneulandpos" x="112.815" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox98_99inneulandpos" x="117.815" y="0" z="5.056" unit="cm"/>
+    <position name="neulandBox99_100inneulandpos" x="122.815" y="0" z="5.056" unit="cm"/>
+    <position name="neulandVetoBox0_1inneulandpos" x="-109.97499999999999" y="0" z="-36.357999999999997" unit="cm"/>
+    <position name="neulandVetoBox1_2inneulandpos" x="-78.447000000000003" y="0" z="-34.058" unit="cm"/>
+    <position name="neulandVetoBox2_3inneulandpos" x="-46.918999999999997" y="0" z="-36.357999999999997" unit="cm"/>
+    <position name="neulandVetoBox3_4inneulandpos" x="-15.390999999999991" y="0" z="-34.058" unit="cm"/>
+    <position name="neulandVetoBox4_5inneulandpos" x="16.137" y="0" z="-36.357999999999997" unit="cm"/>
+    <position name="neulandVetoBox5_6inneulandpos" x="47.664999999999992" y="0" z="-34.058" unit="cm"/>
+    <position name="neulandVetoBox6_7inneulandpos" x="79.193000000000012" y="0" z="-36.357999999999997" unit="cm"/>
+    <position name="neulandVetoBox7_8inneulandpos" x="110.721" y="0" z="-34.058" unit="cm"/>
+    <position name="neuland_1intoppos" x="448.89348542353639" y="0" z="781.97022764124165" unit="cm"/>
+    <rotation name="neuland_1intoprot" x="-1.9913223327530955e-15" y="-29.579000000000001" z="-180" unit="deg"/>
+  </define>
+  <materials>
+    <material name="vacuum" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="p10" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="kapton" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="pcb" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="aluminium" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="copper" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="iron" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="air" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="polystyrene" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="ppo" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="popop" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="bc404" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+    <material name="polyvinyltoluene" Z="1">
+      <D unit="g/cm3" value="0"/>
+      <atom unit="g/mole" value="0"/>
+    </material>
+  </materials>
+  <solids>
+    <box name="TGeoBBox" x="1000" y="300" z="2000" lunit="cm"/>
+    <box name="TGeoBBox0x1" x="200" y="69.2346" z="240" lunit="cm"/>
+    <box name="activeCenter" x="90.596000000000004" y="49.600000000000001" z="138.62599999999998" lunit="cm"/>
+    <box name="activeFront" x="90.596000000000004" y="49.600000000000001" z="2.8494999999999999" lunit="cm"/>
+    <union name="TGeoCompositeShape0x8">
+      <first ref="activeCenter"/>
+      <second ref="activeFront"/>
+      <position name="TGeoCompositeShape0x8activeFrontpos" x="0" y="0" z="70.737749999999991" unit="cm"/>
+    </union>
+    <box name="activeBack" x="90.596000000000004" y="49.600000000000001" z="2.8494999999999999" lunit="cm"/>
+    <union name="TGeoCompositeShape0x7">
+      <first ref="TGeoCompositeShape0x8"/>
+      <second ref="activeBack"/>
+      <position name="TGeoCompositeShape0x7activeBackpos" x="0" y="0" z="-70.737749999999991" unit="cm"/>
+    </union>
+    <box name="activeRight" x="2.8494999999999999" y="49.600000000000001" z="138.62599999999998" lunit="cm"/>
+    <union name="TGeoCompositeShape0x6">
+      <first ref="TGeoCompositeShape0x7"/>
+      <second ref="activeRight"/>
+      <position name="TGeoCompositeShape0x6activeRightpos" x="46.722750000000005" y="0" z="0" unit="cm"/>
+    </union>
+    <box name="activeLeft" x="2.8494999999999999" y="49.600000000000001" z="138.62599999999998" lunit="cm"/>
+    <union name="TGeoCompositeShape0x5">
+      <first ref="TGeoCompositeShape0x6"/>
+      <second ref="activeLeft"/>
+      <position name="TGeoCompositeShape0x5activeLeftpos" x="-46.722750000000005" y="0" z="0" unit="cm"/>
+    </union>
+    <tube name="activeCorner1" rmin="0" rmax="2.8494999999999999" z="49.600000000000001" startphi="0" deltaphi="90" aunit="deg" lunit="cm"/>
+    <union name="TGeoCompositeShape0x4">
+      <first ref="TGeoCompositeShape0x5"/>
+      <second ref="activeCorner1"/>
+      <position name="TGeoCompositeShape0x4activeCorner1pos" x="45.298000000000002" y="0" z="69.312999999999988" unit="cm"/>
+      <rotation name="TGeoCompositeShape0x4activeCorner1rot" x="90" y="-0" z="0" unit="deg"/>
+    </union>
+    <tube name="activeCorner2" rmin="0" rmax="2.8494999999999999" z="49.600000000000001" startphi="90" deltaphi="90" aunit="deg" lunit="cm"/>
+    <union name="TGeoCompositeShape0x3">
+      <first ref="TGeoCompositeShape0x4"/>
+      <second ref="activeCorner2"/>
+      <position name="TGeoCompositeShape0x3activeCorner2pos" x="-45.298000000000002" y="0" z="69.312999999999988" unit="cm"/>
+      <rotation name="TGeoCompositeShape0x3activeCorner2rot" x="90" y="-0" z="0" unit="deg"/>
+    </union>
+    <tube name="activeCorner3" rmin="0" rmax="2.8494999999999999" z="49.600000000000001" startphi="180" deltaphi="90" aunit="deg" lunit="cm"/>
+    <union name="TGeoCompositeShape0x2">
+      <first ref="TGeoCompositeShape0x3"/>
+      <second ref="activeCorner3"/>
+      <position name="TGeoCompositeShape0x2activeCorner3pos" x="-45.298000000000002" y="0" z="-69.312999999999988" unit="cm"/>
+      <rotation name="TGeoCompositeShape0x2activeCorner3rot" x="90" y="-0" z="0" unit="deg"/>
+    </union>
+    <tube name="activeCorner4" rmin="0" rmax="2.8494999999999999" z="49.600000000000001" startphi="270" deltaphi="90" aunit="deg" lunit="cm"/>
+    <union name="TGeoCompositeShape0x1">
+      <first ref="TGeoCompositeShape0x2"/>
+      <second ref="activeCorner4"/>
+      <position name="TGeoCompositeShape0x1activeCorner4pos" x="45.298000000000002" y="0" z="-69.312999999999988" unit="cm"/>
+      <rotation name="TGeoCompositeShape0x1activeCorner4rot" x="90" y="-0" z="0" unit="deg"/>
+    </union>
+    <box name="activeMiddle" x="95.8523" y="0.87629999999999997" z="143.899" lunit="cm"/>
+    <union name="TGeoCompositeShape">
+      <first ref="TGeoCompositeShape0x1"/>
+      <second ref="activeMiddle"/>
+      <position name="TGeoCompositeShapeactiveMiddlepos" x="0" y="25.238150000000001" z="-0.37049999999999272" unit="cm"/>
+    </union>
+    <box name="activeTop" x="126.59999999999999" y="1.8" z="155.69999999999999" lunit="cm"/>
+    <union name="activeComposite">
+      <first ref="TGeoCompositeShape"/>
+      <second ref="activeTop"/>
+      <position name="activeCompositeactiveToppos" x="0" y="26.5763" z="0" unit="cm"/>
+    </union>
+    <box name="TGeoBBox0x2" x="252" y="252" z="100" lunit="cm"/>
+    <box name="neulandBox00x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox10x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox20x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox30x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox40x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox50x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox60x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox70x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox80x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox90x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox100x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox110x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox120x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox130x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox140x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox150x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox160x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox170x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox180x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox190x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox200x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox210x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox220x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox230x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox240x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox250x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox260x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox270x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox280x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox290x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox300x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox310x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox320x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox330x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox340x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox350x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox360x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox370x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox380x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox390x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox400x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox410x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox420x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox430x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox440x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox450x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox460x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox470x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox480x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox490x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox500x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox510x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox520x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox530x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox540x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox550x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox560x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox570x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox580x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox590x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox600x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox610x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox620x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox630x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox640x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox650x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox660x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox670x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox680x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox690x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox700x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox710x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox720x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox730x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox740x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox750x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox760x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox770x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox780x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox790x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox800x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox810x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox820x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox830x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox840x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox850x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox860x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox870x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox880x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox890x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox900x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox910x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox920x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox930x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox940x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox950x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox960x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox970x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox980x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandBox990x1" x="4.7000000000000002" y="250" z="4.7000000000000002" lunit="cm"/>
+    <box name="neulandVetoBox00x1" x="32" y="190" z="1" lunit="cm"/>
+    <box name="neulandVetoBox10x1" x="32" y="190" z="1" lunit="cm"/>
+    <box name="neulandVetoBox20x1" x="32" y="190" z="1" lunit="cm"/>
+    <box name="neulandVetoBox30x1" x="32" y="190" z="1" lunit="cm"/>
+    <box name="neulandVetoBox40x1" x="32" y="190" z="1" lunit="cm"/>
+    <box name="neulandVetoBox50x1" x="32" y="190" z="1" lunit="cm"/>
+    <box name="neulandVetoBox60x1" x="32" y="190" z="1" lunit="cm"/>
+    <box name="neulandVetoBox70x1" x="32" y="190" z="1" lunit="cm"/>
+  </solids>
+  <structure>
+    <volume name="field_cage_in">
+      <materialref ref="p10"/>
+      <solidref ref="activeComposite"/>
+    </volume>
+    <volume name="tpc">
+      <materialref ref="vacuum"/>
+      <solidref ref="TGeoBBox0x1"/>
+      <physvol name="field_cage_in_1" copynumber="1">
+        <volumeref ref="field_cage_in"/>
+        <positionref ref="field_cage_in_1intpcpos"/>
+      </physvol>
+    </volume>
+    <volume name="neulandBox0">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox00x1"/>
+    </volume>
+    <volume name="neulandBox1">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox10x1"/>
+    </volume>
+    <volume name="neulandBox2">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox20x1"/>
+    </volume>
+    <volume name="neulandBox3">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox30x1"/>
+    </volume>
+    <volume name="neulandBox4">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox40x1"/>
+    </volume>
+    <volume name="neulandBox5">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox50x1"/>
+    </volume>
+    <volume name="neulandBox6">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox60x1"/>
+    </volume>
+    <volume name="neulandBox7">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox70x1"/>
+    </volume>
+    <volume name="neulandBox8">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox80x1"/>
+    </volume>
+    <volume name="neulandBox9">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox90x1"/>
+    </volume>
+    <volume name="neulandBox10">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox100x1"/>
+    </volume>
+    <volume name="neulandBox11">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox110x1"/>
+    </volume>
+    <volume name="neulandBox12">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox120x1"/>
+    </volume>
+    <volume name="neulandBox13">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox130x1"/>
+    </volume>
+    <volume name="neulandBox14">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox140x1"/>
+    </volume>
+    <volume name="neulandBox15">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox150x1"/>
+    </volume>
+    <volume name="neulandBox16">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox160x1"/>
+    </volume>
+    <volume name="neulandBox17">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox170x1"/>
+    </volume>
+    <volume name="neulandBox18">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox180x1"/>
+    </volume>
+    <volume name="neulandBox19">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox190x1"/>
+    </volume>
+    <volume name="neulandBox20">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox200x1"/>
+    </volume>
+    <volume name="neulandBox21">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox210x1"/>
+    </volume>
+    <volume name="neulandBox22">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox220x1"/>
+    </volume>
+    <volume name="neulandBox23">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox230x1"/>
+    </volume>
+    <volume name="neulandBox24">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox240x1"/>
+    </volume>
+    <volume name="neulandBox25">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox250x1"/>
+    </volume>
+    <volume name="neulandBox26">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox260x1"/>
+    </volume>
+    <volume name="neulandBox27">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox270x1"/>
+    </volume>
+    <volume name="neulandBox28">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox280x1"/>
+    </volume>
+    <volume name="neulandBox29">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox290x1"/>
+    </volume>
+    <volume name="neulandBox30">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox300x1"/>
+    </volume>
+    <volume name="neulandBox31">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox310x1"/>
+    </volume>
+    <volume name="neulandBox32">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox320x1"/>
+    </volume>
+    <volume name="neulandBox33">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox330x1"/>
+    </volume>
+    <volume name="neulandBox34">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox340x1"/>
+    </volume>
+    <volume name="neulandBox35">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox350x1"/>
+    </volume>
+    <volume name="neulandBox36">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox360x1"/>
+    </volume>
+    <volume name="neulandBox37">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox370x1"/>
+    </volume>
+    <volume name="neulandBox38">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox380x1"/>
+    </volume>
+    <volume name="neulandBox39">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox390x1"/>
+    </volume>
+    <volume name="neulandBox40">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox400x1"/>
+    </volume>
+    <volume name="neulandBox41">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox410x1"/>
+    </volume>
+    <volume name="neulandBox42">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox420x1"/>
+    </volume>
+    <volume name="neulandBox43">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox430x1"/>
+    </volume>
+    <volume name="neulandBox44">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox440x1"/>
+    </volume>
+    <volume name="neulandBox45">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox450x1"/>
+    </volume>
+    <volume name="neulandBox46">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox460x1"/>
+    </volume>
+    <volume name="neulandBox47">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox470x1"/>
+    </volume>
+    <volume name="neulandBox48">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox480x1"/>
+    </volume>
+    <volume name="neulandBox49">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox490x1"/>
+    </volume>
+    <volume name="neulandBox50">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox500x1"/>
+    </volume>
+    <volume name="neulandBox51">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox510x1"/>
+    </volume>
+    <volume name="neulandBox52">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox520x1"/>
+    </volume>
+    <volume name="neulandBox53">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox530x1"/>
+    </volume>
+    <volume name="neulandBox54">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox540x1"/>
+    </volume>
+    <volume name="neulandBox55">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox550x1"/>
+    </volume>
+    <volume name="neulandBox56">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox560x1"/>
+    </volume>
+    <volume name="neulandBox57">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox570x1"/>
+    </volume>
+    <volume name="neulandBox58">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox580x1"/>
+    </volume>
+    <volume name="neulandBox59">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox590x1"/>
+    </volume>
+    <volume name="neulandBox60">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox600x1"/>
+    </volume>
+    <volume name="neulandBox61">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox610x1"/>
+    </volume>
+    <volume name="neulandBox62">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox620x1"/>
+    </volume>
+    <volume name="neulandBox63">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox630x1"/>
+    </volume>
+    <volume name="neulandBox64">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox640x1"/>
+    </volume>
+    <volume name="neulandBox65">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox650x1"/>
+    </volume>
+    <volume name="neulandBox66">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox660x1"/>
+    </volume>
+    <volume name="neulandBox67">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox670x1"/>
+    </volume>
+    <volume name="neulandBox68">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox680x1"/>
+    </volume>
+    <volume name="neulandBox69">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox690x1"/>
+    </volume>
+    <volume name="neulandBox70">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox700x1"/>
+    </volume>
+    <volume name="neulandBox71">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox710x1"/>
+    </volume>
+    <volume name="neulandBox72">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox720x1"/>
+    </volume>
+    <volume name="neulandBox73">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox730x1"/>
+    </volume>
+    <volume name="neulandBox74">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox740x1"/>
+    </volume>
+    <volume name="neulandBox75">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox750x1"/>
+    </volume>
+    <volume name="neulandBox76">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox760x1"/>
+    </volume>
+    <volume name="neulandBox77">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox770x1"/>
+    </volume>
+    <volume name="neulandBox78">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox780x1"/>
+    </volume>
+    <volume name="neulandBox79">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox790x1"/>
+    </volume>
+    <volume name="neulandBox80">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox800x1"/>
+    </volume>
+    <volume name="neulandBox81">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox810x1"/>
+    </volume>
+    <volume name="neulandBox82">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox820x1"/>
+    </volume>
+    <volume name="neulandBox83">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox830x1"/>
+    </volume>
+    <volume name="neulandBox84">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox840x1"/>
+    </volume>
+    <volume name="neulandBox85">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox850x1"/>
+    </volume>
+    <volume name="neulandBox86">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox860x1"/>
+    </volume>
+    <volume name="neulandBox87">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox870x1"/>
+    </volume>
+    <volume name="neulandBox88">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox880x1"/>
+    </volume>
+    <volume name="neulandBox89">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox890x1"/>
+    </volume>
+    <volume name="neulandBox90">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox900x1"/>
+    </volume>
+    <volume name="neulandBox91">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox910x1"/>
+    </volume>
+    <volume name="neulandBox92">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox920x1"/>
+    </volume>
+    <volume name="neulandBox93">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox930x1"/>
+    </volume>
+    <volume name="neulandBox94">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox940x1"/>
+    </volume>
+    <volume name="neulandBox95">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox950x1"/>
+    </volume>
+    <volume name="neulandBox96">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox960x1"/>
+    </volume>
+    <volume name="neulandBox97">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox970x1"/>
+    </volume>
+    <volume name="neulandBox98">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox980x1"/>
+    </volume>
+    <volume name="neulandBox99">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandBox990x1"/>
+    </volume>
+    <volume name="neulandVetoBox0">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandVetoBox00x1"/>
+    </volume>
+    <volume name="neulandVetoBox1">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandVetoBox10x1"/>
+    </volume>
+    <volume name="neulandVetoBox2">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandVetoBox20x1"/>
+    </volume>
+    <volume name="neulandVetoBox3">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandVetoBox30x1"/>
+    </volume>
+    <volume name="neulandVetoBox4">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandVetoBox40x1"/>
+    </volume>
+    <volume name="neulandVetoBox5">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandVetoBox50x1"/>
+    </volume>
+    <volume name="neulandVetoBox6">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandVetoBox60x1"/>
+    </volume>
+    <volume name="neulandVetoBox7">
+      <materialref ref="polyvinyltoluene"/>
+      <solidref ref="neulandVetoBox70x1"/>
+    </volume>
+    <volume name="neuland">
+      <materialref ref="vacuum"/>
+      <solidref ref="TGeoBBox0x2"/>
+      <physvol name="neulandBox0_1" copynumber="1">
+        <volumeref ref="neulandBox0"/>
+        <positionref ref="neulandBox0_1inneulandpos"/>
+        <rotationref ref="neulandBox0_1inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox1_2" copynumber="2">
+        <volumeref ref="neulandBox1"/>
+        <positionref ref="neulandBox1_2inneulandpos"/>
+        <rotationref ref="neulandBox1_2inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox2_3" copynumber="3">
+        <volumeref ref="neulandBox2"/>
+        <positionref ref="neulandBox2_3inneulandpos"/>
+        <rotationref ref="neulandBox2_3inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox3_4" copynumber="4">
+        <volumeref ref="neulandBox3"/>
+        <positionref ref="neulandBox3_4inneulandpos"/>
+        <rotationref ref="neulandBox3_4inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox4_5" copynumber="5">
+        <volumeref ref="neulandBox4"/>
+        <positionref ref="neulandBox4_5inneulandpos"/>
+        <rotationref ref="neulandBox4_5inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox5_6" copynumber="6">
+        <volumeref ref="neulandBox5"/>
+        <positionref ref="neulandBox5_6inneulandpos"/>
+        <rotationref ref="neulandBox5_6inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox6_7" copynumber="7">
+        <volumeref ref="neulandBox6"/>
+        <positionref ref="neulandBox6_7inneulandpos"/>
+        <rotationref ref="neulandBox6_7inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox7_8" copynumber="8">
+        <volumeref ref="neulandBox7"/>
+        <positionref ref="neulandBox7_8inneulandpos"/>
+        <rotationref ref="neulandBox7_8inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox8_9" copynumber="9">
+        <volumeref ref="neulandBox8"/>
+        <positionref ref="neulandBox8_9inneulandpos"/>
+        <rotationref ref="neulandBox8_9inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox9_10" copynumber="10">
+        <volumeref ref="neulandBox9"/>
+        <positionref ref="neulandBox9_10inneulandpos"/>
+        <rotationref ref="neulandBox9_10inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox10_11" copynumber="11">
+        <volumeref ref="neulandBox10"/>
+        <positionref ref="neulandBox10_11inneulandpos"/>
+        <rotationref ref="neulandBox10_11inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox11_12" copynumber="12">
+        <volumeref ref="neulandBox11"/>
+        <positionref ref="neulandBox11_12inneulandpos"/>
+        <rotationref ref="neulandBox11_12inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox12_13" copynumber="13">
+        <volumeref ref="neulandBox12"/>
+        <positionref ref="neulandBox12_13inneulandpos"/>
+        <rotationref ref="neulandBox12_13inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox13_14" copynumber="14">
+        <volumeref ref="neulandBox13"/>
+        <positionref ref="neulandBox13_14inneulandpos"/>
+        <rotationref ref="neulandBox13_14inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox14_15" copynumber="15">
+        <volumeref ref="neulandBox14"/>
+        <positionref ref="neulandBox14_15inneulandpos"/>
+        <rotationref ref="neulandBox14_15inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox15_16" copynumber="16">
+        <volumeref ref="neulandBox15"/>
+        <positionref ref="neulandBox15_16inneulandpos"/>
+        <rotationref ref="neulandBox15_16inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox16_17" copynumber="17">
+        <volumeref ref="neulandBox16"/>
+        <positionref ref="neulandBox16_17inneulandpos"/>
+        <rotationref ref="neulandBox16_17inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox17_18" copynumber="18">
+        <volumeref ref="neulandBox17"/>
+        <positionref ref="neulandBox17_18inneulandpos"/>
+        <rotationref ref="neulandBox17_18inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox18_19" copynumber="19">
+        <volumeref ref="neulandBox18"/>
+        <positionref ref="neulandBox18_19inneulandpos"/>
+        <rotationref ref="neulandBox18_19inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox19_20" copynumber="20">
+        <volumeref ref="neulandBox19"/>
+        <positionref ref="neulandBox19_20inneulandpos"/>
+        <rotationref ref="neulandBox19_20inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox20_21" copynumber="21">
+        <volumeref ref="neulandBox20"/>
+        <positionref ref="neulandBox20_21inneulandpos"/>
+        <rotationref ref="neulandBox20_21inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox21_22" copynumber="22">
+        <volumeref ref="neulandBox21"/>
+        <positionref ref="neulandBox21_22inneulandpos"/>
+        <rotationref ref="neulandBox21_22inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox22_23" copynumber="23">
+        <volumeref ref="neulandBox22"/>
+        <positionref ref="neulandBox22_23inneulandpos"/>
+        <rotationref ref="neulandBox22_23inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox23_24" copynumber="24">
+        <volumeref ref="neulandBox23"/>
+        <positionref ref="neulandBox23_24inneulandpos"/>
+        <rotationref ref="neulandBox23_24inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox24_25" copynumber="25">
+        <volumeref ref="neulandBox24"/>
+        <positionref ref="neulandBox24_25inneulandpos"/>
+        <rotationref ref="neulandBox24_25inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox25_26" copynumber="26">
+        <volumeref ref="neulandBox25"/>
+        <positionref ref="neulandBox25_26inneulandpos"/>
+        <rotationref ref="neulandBox25_26inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox26_27" copynumber="27">
+        <volumeref ref="neulandBox26"/>
+        <positionref ref="neulandBox26_27inneulandpos"/>
+        <rotationref ref="neulandBox26_27inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox27_28" copynumber="28">
+        <volumeref ref="neulandBox27"/>
+        <positionref ref="neulandBox27_28inneulandpos"/>
+        <rotationref ref="neulandBox27_28inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox28_29" copynumber="29">
+        <volumeref ref="neulandBox28"/>
+        <positionref ref="neulandBox28_29inneulandpos"/>
+        <rotationref ref="neulandBox28_29inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox29_30" copynumber="30">
+        <volumeref ref="neulandBox29"/>
+        <positionref ref="neulandBox29_30inneulandpos"/>
+        <rotationref ref="neulandBox29_30inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox30_31" copynumber="31">
+        <volumeref ref="neulandBox30"/>
+        <positionref ref="neulandBox30_31inneulandpos"/>
+        <rotationref ref="neulandBox30_31inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox31_32" copynumber="32">
+        <volumeref ref="neulandBox31"/>
+        <positionref ref="neulandBox31_32inneulandpos"/>
+        <rotationref ref="neulandBox31_32inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox32_33" copynumber="33">
+        <volumeref ref="neulandBox32"/>
+        <positionref ref="neulandBox32_33inneulandpos"/>
+        <rotationref ref="neulandBox32_33inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox33_34" copynumber="34">
+        <volumeref ref="neulandBox33"/>
+        <positionref ref="neulandBox33_34inneulandpos"/>
+        <rotationref ref="neulandBox33_34inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox34_35" copynumber="35">
+        <volumeref ref="neulandBox34"/>
+        <positionref ref="neulandBox34_35inneulandpos"/>
+        <rotationref ref="neulandBox34_35inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox35_36" copynumber="36">
+        <volumeref ref="neulandBox35"/>
+        <positionref ref="neulandBox35_36inneulandpos"/>
+        <rotationref ref="neulandBox35_36inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox36_37" copynumber="37">
+        <volumeref ref="neulandBox36"/>
+        <positionref ref="neulandBox36_37inneulandpos"/>
+        <rotationref ref="neulandBox36_37inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox37_38" copynumber="38">
+        <volumeref ref="neulandBox37"/>
+        <positionref ref="neulandBox37_38inneulandpos"/>
+        <rotationref ref="neulandBox37_38inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox38_39" copynumber="39">
+        <volumeref ref="neulandBox38"/>
+        <positionref ref="neulandBox38_39inneulandpos"/>
+        <rotationref ref="neulandBox38_39inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox39_40" copynumber="40">
+        <volumeref ref="neulandBox39"/>
+        <positionref ref="neulandBox39_40inneulandpos"/>
+        <rotationref ref="neulandBox39_40inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox40_41" copynumber="41">
+        <volumeref ref="neulandBox40"/>
+        <positionref ref="neulandBox40_41inneulandpos"/>
+        <rotationref ref="neulandBox40_41inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox41_42" copynumber="42">
+        <volumeref ref="neulandBox41"/>
+        <positionref ref="neulandBox41_42inneulandpos"/>
+        <rotationref ref="neulandBox41_42inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox42_43" copynumber="43">
+        <volumeref ref="neulandBox42"/>
+        <positionref ref="neulandBox42_43inneulandpos"/>
+        <rotationref ref="neulandBox42_43inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox43_44" copynumber="44">
+        <volumeref ref="neulandBox43"/>
+        <positionref ref="neulandBox43_44inneulandpos"/>
+        <rotationref ref="neulandBox43_44inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox44_45" copynumber="45">
+        <volumeref ref="neulandBox44"/>
+        <positionref ref="neulandBox44_45inneulandpos"/>
+        <rotationref ref="neulandBox44_45inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox45_46" copynumber="46">
+        <volumeref ref="neulandBox45"/>
+        <positionref ref="neulandBox45_46inneulandpos"/>
+        <rotationref ref="neulandBox45_46inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox46_47" copynumber="47">
+        <volumeref ref="neulandBox46"/>
+        <positionref ref="neulandBox46_47inneulandpos"/>
+        <rotationref ref="neulandBox46_47inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox47_48" copynumber="48">
+        <volumeref ref="neulandBox47"/>
+        <positionref ref="neulandBox47_48inneulandpos"/>
+        <rotationref ref="neulandBox47_48inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox48_49" copynumber="49">
+        <volumeref ref="neulandBox48"/>
+        <positionref ref="neulandBox48_49inneulandpos"/>
+        <rotationref ref="neulandBox48_49inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox49_50" copynumber="50">
+        <volumeref ref="neulandBox49"/>
+        <positionref ref="neulandBox49_50inneulandpos"/>
+        <rotationref ref="neulandBox49_50inneulandrot"/>
+      </physvol>
+      <physvol name="neulandBox50_51" copynumber="51">
+        <volumeref ref="neulandBox50"/>
+        <positionref ref="neulandBox50_51inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox51_52" copynumber="52">
+        <volumeref ref="neulandBox51"/>
+        <positionref ref="neulandBox51_52inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox52_53" copynumber="53">
+        <volumeref ref="neulandBox52"/>
+        <positionref ref="neulandBox52_53inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox53_54" copynumber="54">
+        <volumeref ref="neulandBox53"/>
+        <positionref ref="neulandBox53_54inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox54_55" copynumber="55">
+        <volumeref ref="neulandBox54"/>
+        <positionref ref="neulandBox54_55inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox55_56" copynumber="56">
+        <volumeref ref="neulandBox55"/>
+        <positionref ref="neulandBox55_56inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox56_57" copynumber="57">
+        <volumeref ref="neulandBox56"/>
+        <positionref ref="neulandBox56_57inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox57_58" copynumber="58">
+        <volumeref ref="neulandBox57"/>
+        <positionref ref="neulandBox57_58inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox58_59" copynumber="59">
+        <volumeref ref="neulandBox58"/>
+        <positionref ref="neulandBox58_59inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox59_60" copynumber="60">
+        <volumeref ref="neulandBox59"/>
+        <positionref ref="neulandBox59_60inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox60_61" copynumber="61">
+        <volumeref ref="neulandBox60"/>
+        <positionref ref="neulandBox60_61inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox61_62" copynumber="62">
+        <volumeref ref="neulandBox61"/>
+        <positionref ref="neulandBox61_62inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox62_63" copynumber="63">
+        <volumeref ref="neulandBox62"/>
+        <positionref ref="neulandBox62_63inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox63_64" copynumber="64">
+        <volumeref ref="neulandBox63"/>
+        <positionref ref="neulandBox63_64inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox64_65" copynumber="65">
+        <volumeref ref="neulandBox64"/>
+        <positionref ref="neulandBox64_65inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox65_66" copynumber="66">
+        <volumeref ref="neulandBox65"/>
+        <positionref ref="neulandBox65_66inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox66_67" copynumber="67">
+        <volumeref ref="neulandBox66"/>
+        <positionref ref="neulandBox66_67inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox67_68" copynumber="68">
+        <volumeref ref="neulandBox67"/>
+        <positionref ref="neulandBox67_68inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox68_69" copynumber="69">
+        <volumeref ref="neulandBox68"/>
+        <positionref ref="neulandBox68_69inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox69_70" copynumber="70">
+        <volumeref ref="neulandBox69"/>
+        <positionref ref="neulandBox69_70inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox70_71" copynumber="71">
+        <volumeref ref="neulandBox70"/>
+        <positionref ref="neulandBox70_71inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox71_72" copynumber="72">
+        <volumeref ref="neulandBox71"/>
+        <positionref ref="neulandBox71_72inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox72_73" copynumber="73">
+        <volumeref ref="neulandBox72"/>
+        <positionref ref="neulandBox72_73inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox73_74" copynumber="74">
+        <volumeref ref="neulandBox73"/>
+        <positionref ref="neulandBox73_74inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox74_75" copynumber="75">
+        <volumeref ref="neulandBox74"/>
+        <positionref ref="neulandBox74_75inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox75_76" copynumber="76">
+        <volumeref ref="neulandBox75"/>
+        <positionref ref="neulandBox75_76inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox76_77" copynumber="77">
+        <volumeref ref="neulandBox76"/>
+        <positionref ref="neulandBox76_77inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox77_78" copynumber="78">
+        <volumeref ref="neulandBox77"/>
+        <positionref ref="neulandBox77_78inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox78_79" copynumber="79">
+        <volumeref ref="neulandBox78"/>
+        <positionref ref="neulandBox78_79inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox79_80" copynumber="80">
+        <volumeref ref="neulandBox79"/>
+        <positionref ref="neulandBox79_80inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox80_81" copynumber="81">
+        <volumeref ref="neulandBox80"/>
+        <positionref ref="neulandBox80_81inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox81_82" copynumber="82">
+        <volumeref ref="neulandBox81"/>
+        <positionref ref="neulandBox81_82inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox82_83" copynumber="83">
+        <volumeref ref="neulandBox82"/>
+        <positionref ref="neulandBox82_83inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox83_84" copynumber="84">
+        <volumeref ref="neulandBox83"/>
+        <positionref ref="neulandBox83_84inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox84_85" copynumber="85">
+        <volumeref ref="neulandBox84"/>
+        <positionref ref="neulandBox84_85inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox85_86" copynumber="86">
+        <volumeref ref="neulandBox85"/>
+        <positionref ref="neulandBox85_86inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox86_87" copynumber="87">
+        <volumeref ref="neulandBox86"/>
+        <positionref ref="neulandBox86_87inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox87_88" copynumber="88">
+        <volumeref ref="neulandBox87"/>
+        <positionref ref="neulandBox87_88inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox88_89" copynumber="89">
+        <volumeref ref="neulandBox88"/>
+        <positionref ref="neulandBox88_89inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox89_90" copynumber="90">
+        <volumeref ref="neulandBox89"/>
+        <positionref ref="neulandBox89_90inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox90_91" copynumber="91">
+        <volumeref ref="neulandBox90"/>
+        <positionref ref="neulandBox90_91inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox91_92" copynumber="92">
+        <volumeref ref="neulandBox91"/>
+        <positionref ref="neulandBox91_92inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox92_93" copynumber="93">
+        <volumeref ref="neulandBox92"/>
+        <positionref ref="neulandBox92_93inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox93_94" copynumber="94">
+        <volumeref ref="neulandBox93"/>
+        <positionref ref="neulandBox93_94inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox94_95" copynumber="95">
+        <volumeref ref="neulandBox94"/>
+        <positionref ref="neulandBox94_95inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox95_96" copynumber="96">
+        <volumeref ref="neulandBox95"/>
+        <positionref ref="neulandBox95_96inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox96_97" copynumber="97">
+        <volumeref ref="neulandBox96"/>
+        <positionref ref="neulandBox96_97inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox97_98" copynumber="98">
+        <volumeref ref="neulandBox97"/>
+        <positionref ref="neulandBox97_98inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox98_99" copynumber="99">
+        <volumeref ref="neulandBox98"/>
+        <positionref ref="neulandBox98_99inneulandpos"/>
+      </physvol>
+      <physvol name="neulandBox99_100" copynumber="100">
+        <volumeref ref="neulandBox99"/>
+        <positionref ref="neulandBox99_100inneulandpos"/>
+      </physvol>
+      <physvol name="neulandVetoBox0_1" copynumber="1">
+        <volumeref ref="neulandVetoBox0"/>
+        <positionref ref="neulandVetoBox0_1inneulandpos"/>
+      </physvol>
+      <physvol name="neulandVetoBox1_2" copynumber="2">
+        <volumeref ref="neulandVetoBox1"/>
+        <positionref ref="neulandVetoBox1_2inneulandpos"/>
+      </physvol>
+      <physvol name="neulandVetoBox2_3" copynumber="3">
+        <volumeref ref="neulandVetoBox2"/>
+        <positionref ref="neulandVetoBox2_3inneulandpos"/>
+      </physvol>
+      <physvol name="neulandVetoBox3_4" copynumber="4">
+        <volumeref ref="neulandVetoBox3"/>
+        <positionref ref="neulandVetoBox3_4inneulandpos"/>
+      </physvol>
+      <physvol name="neulandVetoBox4_5" copynumber="5">
+        <volumeref ref="neulandVetoBox4"/>
+        <positionref ref="neulandVetoBox4_5inneulandpos"/>
+      </physvol>
+      <physvol name="neulandVetoBox5_6" copynumber="6">
+        <volumeref ref="neulandVetoBox5"/>
+        <positionref ref="neulandVetoBox5_6inneulandpos"/>
+      </physvol>
+      <physvol name="neulandVetoBox6_7" copynumber="7">
+        <volumeref ref="neulandVetoBox6"/>
+        <positionref ref="neulandVetoBox6_7inneulandpos"/>
+      </physvol>
+      <physvol name="neulandVetoBox7_8" copynumber="8">
+        <volumeref ref="neulandVetoBox7"/>
+        <positionref ref="neulandVetoBox7_8inneulandpos"/>
+      </physvol>
+    </volume>
+    <volume name="top">
+      <materialref ref="vacuum"/>
+      <solidref ref="TGeoBBox"/>
+      <physvol name="tpc_1" copynumber="1">
+        <volumeref ref="tpc"/>
+        <positionref ref="tpc_1intoppos"/>
+        <rotationref ref="tpc_1intoprot"/>
+      </physvol>
+      <physvol name="neuland_1" copynumber="1">
+        <volumeref ref="neuland"/>
+        <positionref ref="neuland_1intoppos"/>
+        <rotationref ref="neuland_1intoprot"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="default" version="1.0">
+    <world ref="top"/>
+  </setup>
+</gdml>
+
